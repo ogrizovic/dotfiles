@@ -154,7 +154,7 @@ let g:NERDTreeHighlightCursorline = 1
 let g:NERDTreeChDirMode = 2
 let g:NERDTreeWinSize = 40
 let g:NERDTreeQuitOnOpen = 1
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "M",
     \ "Staged"    : ".",
     \ "Untracked" : "U",
