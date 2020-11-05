@@ -80,21 +80,21 @@ endif
 call plug#begin()
 
 Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-" Plug 'mbbill/undotree'
-Plug 'ycm-core/YouCompleteMe'
+"Plug 'mbbill/undotree'
+"Plug 'ycm-core/YouCompleteMe'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
-Plug 'ayu-theme/ayu-vim'  
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' } 
+"Plug 'ayu-theme/ayu-vim'  
+"Plug 'prettier/vim-prettier', { 'do': 'yarn install' } 
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
-Plug 'tpope/vim-obsession'
-" Plug 'lifepillar/vim-solarized8'
-" Plug 'chuling/vim-equinusocio-material'
+"Plug 'tpope/vim-obsession'
+"Plug 'lifepillar/vim-solarized8'
+"Plug 'chuling/vim-equinusocio-material'
 Plug 'itchyny/lightline.vim'
-Plug 'elixir-editors/vim-elixir'
+"Plug 'elixir-editors/vim-elixir'
 Plug 'alvan/vim-closetag'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
@@ -154,18 +154,6 @@ let g:NERDTreeHighlightCursorline = 1
 let g:NERDTreeChDirMode = 2
 let g:NERDTreeWinSize = 40
 let g:NERDTreeQuitOnOpen = 1
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-    \ "Modified"  : "M",
-    \ "Staged"    : ".",
-    \ "Untracked" : "U",
-    \ "Renamed"   : "R",
-    \ "Unmerged"  : "X",
-    \ "Deleted"   : "D",
-    \ "Dirty"     : "-",
-    \ "Clean"     : "✔︎",
-    \ 'Ignored'   : '☒',
-    \ "Unknown"   : "?"
-    \ }
 
 " vim-closetag
 " filenames like *.xml, *.html, *.xhtml, ...
